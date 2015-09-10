@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>sidebar-react-electron-boilerplate</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href='assets/css/simple-sidebar.css' rel='stylesheet' type='text/css'>
+        <link href='assets/css/main.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="wrapper"></div>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script type="text/javascript">
+            window.$ = window.jQuery = require(__dirname+'/assets/js/jquery.js');
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "sidebar-react-electron-boilerplate",
+  "version": "1.0.0",
+  "description": "ReactJS implementation of the sidebar navigation template (https://github.com/IronSummitMedia/startbootstrap-simple-sidebar) in Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.30.4",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "electron-debug": "^0.2.0",
+    "gulp": "^3.9.0",
+    "gulp-react": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tngan/sidebar-react-electron-boilerplate.git"
+  },
+  "author": "tngan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tngan/sidebar-react-electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/tngan/sidebar-react-electron-boilerplate#readme"
+}
